@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int count = 0;
+    for (int i = 65; i <= 90; i++) {
+        cout << (char)i << " ";
+        count++;
+
+        if (count % 5==0) {
+            cout << "\n" << endl;
+        }
+    }
+}
